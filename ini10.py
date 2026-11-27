@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).parent
 def localizar_excel() -> Path:
     """Procura o Excel da INI10 na raiz do projeto e em subpastas."""
     candidatos = [
-        BASE_DIR / "raw_files" / "INI 10_2011_.xlsx",
+        #BASE_DIR / "raw_files" / "INI 10_2011_.xlsx",
         BASE_DIR / "INI 10_2011_.xlsx",
     ]
     for caminho in candidatos:
